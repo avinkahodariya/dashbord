@@ -1,0 +1,259 @@
+.bk-color-blue {
+  background-color: rgb(30, 94, 212) !important;
+}
+.sidediv {
+  position: relative;
+}
+#root {
+  position: relative;
+}
+
+.font-white {
+  color: white !important;
+}
+
+.download {
+  .dropdown-toggle::after {
+    color: #ffffff !important;
+  }
+}
+
+.last-box {
+  border: solid 1.5px black !important;
+  border-radius: 12px;
+  width: 50px;
+}
+.navbar {
+  width: 100%;
+  background: #0479ff;
+  text-align: center;
+}
+
+.pro-menu {
+  box-sizing: border-box;
+}
+.pro-sidebar-inner {
+  background-color: #f3f3f3;
+  color: black;
+}
+.pro-inner-item {
+  &:hover {
+    color: black;
+  }
+}
+.primary {
+  color: #1e5ed4 !important;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: row;
+  background: white !important;
+  align-items: center;
+  justify-content: space-between;
+  .css-1iz4iln {
+    position: relative !important;
+  }
+}
+
+#standard-textarea {
+  &::before {
+    border-bottom: 0px !important;
+  }
+}
+
+.togle-search {
+  margin: 0px !important;
+  .MuiInputBase-input {
+    padding: 0px !important;
+    width: 120px !important;
+  }
+  .css-1iz4iln {
+    padding: 0px !important;
+  }
+}
+.pro-item-content {
+  display: flex;
+  gap: 15px;
+}
+.selected {
+  border-radius: 50px;
+  padding: 0px;
+  background: #0479ff;
+  color: white;
+  &:hover {
+    color: white !important;
+  }
+  div {
+    div {
+      display: flex;
+      padding: 1%;
+    }
+  }
+}
+
+.side-button {
+  div {
+    display: flex;
+    padding: 5%;
+    gap: 15px;
+  }
+}
+
+.hover {
+  &:hover {
+    // background-color: #f1f1f1 !important;
+    opacity: 0.5;
+    box-sizing: border-box;
+  }
+}
+
+.hover-bk {
+  &:hover {
+    // background-color: #f1f1f1 !important;
+    background-color: #f0f8ff !important;
+    box-sizing: border-box;
+  }
+}
+
+.pro-sidebar-layout {
+  padding: 1%;
+  background-color: #f3f3f3;
+}
+.pro-menu {
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+}
+.header-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  .btn {
+    display: flex;
+    gap: 10px;
+  }
+}
+.btn {
+  align-items: center !important;
+  border-radius: 0px !important;
+  background-color: #fffefe !important;
+  color: black !important;
+}
+.dropdown-toggle {
+  background-color: inherit !important;
+  color: rgb(0, 0, 0) !important;
+  border: 0px !important;
+  border-color: white !important;
+}
+.btn-secondary:hover {
+  color: rgb(0, 0, 0) !important;
+  background-color: inherit !important;
+  border-color: rgb(84, 91, 98) !important;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+.w-16 {
+  // background-color: !important;
+  // width: 16%;
+  padding-inline: 2px !important;
+}
+
+.header-row-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn-secondary.focus,
+.btn-secondary:focus {
+  box-shadow: none;
+}
+.second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1%;
+  .dropdown-toggle {
+    // width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.mui-button {
+  border-radius: 50px !important;
+}
+.round-border-wrapper {
+  width: 65%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  .mui-button {
+    margin-inline: 5px;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+  }
+  .MuiSvgIcon-root {
+    margin-inline: 6px;
+  }
+}
+.arrow::after {
+  display: flex;
+  justify-content: space-between;
+  width: 0;
+  height: 0;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.4em solid;
+  border-right: 0.4em solid transparent;
+  border-bottom: 0;
+  border-left: 0.4em solid transparent;
+}
+.box-wrappwer {
+  display: flex;
+  gap: 15pxsp;
+  justify-content: end;
+}
+.text-red {
+  color: red !important;
+}
+.text-blue {
+  color: #1e5ed4 !important;
+}
+.bk-blue {
+  background-color: #1e5ed4 !important;
+  color: #ffffff !important;
+}
+.pointer {
+  cursor: pointer;
+}
+.box-page {
+  border: none !important;
+  width: 50px;
+}
+.dropdown-menu {
+  min-width: fit-content !important;
+}
+
+.dropdown-item {
+  padding: 0.25rem 0.5rem !important;
+}
+.hover-page {
+  border-radius: 10px !important;
+
+  &:hover {
+    background-color: #659af47d !important;
+  }
+}
+
+.MuiInputBase-input {
+  width: unset !important;
+}
+.dropdown-menu {
+  padding: 0px !important;
+  border-radius: 10px !important;
+}
